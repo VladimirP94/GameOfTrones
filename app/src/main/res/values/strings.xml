@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">GameOfTrones</string>
+    <string name="inputName">Username</string>
+    <string name="login">Login</string>
+    <!--Question 1-->
+    <string name="Aquestion">1. Which of the following is NOT a family in Game of Thrones?</string>
+    <string name="fOneFamily">Tyrell</string>
+    <string name="fTwoFamily"> Bolton</string>
+    <string name="corrFamily">Mortensen</string>
+    <!--Question 2-->
+    <string name="Bquestion">2.  What does Tyrion murder his father with?</string>
+    <string name="fOneMurder">Poison</string>
+    <string name="fTwoMurder">Sword</string>
+    <string name="corrMurder">Crossbow</string>
+    <!--Question 3-->
+    <string name="Cquestion">3.  Who is known as "The Kingslayer"?</string>
+    <string name="fOneKnown">Joffrey Baratheon</string>
+    <string name="fTwoKnown">Eddard Stark</string>
+    <string name="corrKnown">  Jaime Lannister</string>
+    <!--Question 4-->
+    <string name="Dquestion">4.  Who said this memorable line: "You know nothing, Jon Snow."?</string>
+    <string name="fOneSnow">Daenerys Targaryen</string>
+    <string name="fTwoSnow">Cersei Lannister</string>
+    <string name="corrSnow">Ygritte</string>
+
+    <!--Question 5-->
+    <string name="Equestion">5.   What does Ramsay Bolton do to Theon Greyjoy so that he will call himself "Reek"??</string>
+    <string name="fOneReek">  Asks nicely.</string>
+    <string name="fTwoReek">Threatens to kill Theon baby sister.</string>
+    <string name="corrReek">Tortures him sadistically in many ways</string>
+
+    <!--Main button-->
+    <string name="check">Check</string>
+    <string name="results">Results</string>
+
+    <!--Recap button-->
+    <string name="email">Send by mail</string>
+    <string name="exit">Exit</string>
+    <string name="noUserName">You did not enter a username</string>
+
+    <string name="ToastMainComplete">Now you can see your answers. Click the next button to discover your complete results!</string>
+    <string name="ToastMainNoAnswer">You must give at least one answer</string>
+
+    <string name="score">Your score is: </string>
+    <string name="zeroScore">\nYou do not know anything about Game of Trones! </string>
+    <string name="lowScore">\nCan you do any better!</string>
+    <string name="midScore">\nWell done!</string>
+    <string name="highScore">\nGreat, you are very well informed about the Game of Trones!</string>
+    <string name="resultss">Results of Game Of Trones quiz</string>
+
+    </resources>

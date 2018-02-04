@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.gameoftrones.MainActivity"
+            android:background="@color/BlueDark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--1-->
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_padding_bottom"
+                android:layout_marginEnd="@dimen/card_margin"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                card_view:cardCornerRadius="@dimen/card_border_radius"
+                card_view:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_height"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/face"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_margin"
+                        android:text="@string/Aquestion"
+                        android:textSize="@dimen/text_size" />
+
+                    <RadioGroup
+                        android:id="@+id/family"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/padding_margin"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/fOneFamily"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fOneFamily" />
+
+                        <RadioButton
+                            android:id="@+id/corrFamily"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/corrFamily" />
+
+                        <RadioButton
+                            android:id="@+id/fTwoFamily"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fTwoFamily" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--2-->
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_padding_bottom"
+                android:layout_marginEnd="@dimen/card_margin"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                card_view:cardCornerRadius="@dimen/card_border_radius"
+                card_view:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_height"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tyrion"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_margin"
+                        android:text="@string/Bquestion"
+                        android:textSize="@dimen/text_size" />
+
+                    <RadioGroup
+                        android:id="@+id/murder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/padding_margin"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/fTwoMurder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fTwoMurder" />
+
+                        <RadioButton
+                            android:id="@+id/fOneMurder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fOneMurder" />
+
+                        <RadioButton
+                            android:id="@+id/corrMurder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/corrMurder"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--3-->
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_padding_bottom"
+                android:layout_marginEnd="@dimen/card_margin"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                card_view:cardCornerRadius="@dimen/card_border_radius"
+                card_view:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_height"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/layer"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_margin"
+                        android:text="@string/Cquestion"
+                        android:textSize="@dimen/text_size" />
+
+                    <RadioGroup
+                        android:id="@+id/known"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/padding_margin"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/fOneKnown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fOneKnown" />
+
+                        <RadioButton
+                            android:id="@+id/corrKnow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/corrKnown" />
+
+                        <RadioButton
+                            android:id="@+id/fTwoKnown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fTwoKnown"
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--4-->
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_padding_bottom"
+                android:layout_marginEnd="@dimen/card_margin"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                card_view:cardCornerRadius="@dimen/card_border_radius"
+                card_view:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_height"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/show"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_margin"
+                        android:text="@string/Dquestion"
+                        android:textSize="@dimen/text_size" />
+
+                    <RadioGroup
+                        android:id="@+id/snow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/padding_margin"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/corrSnow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/corrSnow" />
+
+                        <RadioButton
+                            android:id="@+id/fOneSnow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fOneSnow" />
+
+                        <RadioButton
+                            android:id="@+id/fTwoSnow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fTwoSnow"
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--5-->
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/card_padding_bottom"
+                android:layout_marginEnd="@dimen/card_margin"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                card_view:cardCornerRadius="@dimen/card_border_radius"
+                card_view:cardElevation="@dimen/card_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_height"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/remsy"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_margin"
+                        android:text="@string/Equestion"
+                        android:textSize="@dimen/text_size" />
+
+                    <RadioGroup
+                        android:id="@+id/reek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/padding_margin"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/fTwoReek"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fTwoReek" />
+
+                        <RadioButton
+                            android:id="@+id/fOneReek"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fOneReek" />
+
+                        <RadioButton
+                            android:id="@+id/corrReek"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/corrReek"
+                            />
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/button_check"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="@string/check"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"
+            android:onClick="rezultati"/>
+
+        <Button
+            android:id="@+id/button_results"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="@string/results"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:textSize="20sp"
+            android:onClick="Score"/>
+
+    </LinearLayout>
+        </LinearLayout>
+        </ScrollView>

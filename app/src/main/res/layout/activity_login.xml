@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dragon">
+
+    <ImageView
+        android:id="@+id/logo_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="468dp"
+        android:src="@drawable/gameofthrones_logo" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:ems="10"
+        android:hint="@string/inputName"
+        android:background="@drawable/shape"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="@string/login"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:textSize="20sp"
+        android:onClick="login"/>
+</RelativeLayout>
